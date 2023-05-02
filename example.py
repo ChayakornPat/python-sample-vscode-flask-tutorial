@@ -29,6 +29,6 @@ def create_view(override_values={}):
     # [END bigquery_create_view]
     return view
 
-
+create_view(override_values={})
 
 

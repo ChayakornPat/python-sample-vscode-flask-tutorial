@@ -35,6 +35,4 @@ steps:
     pytest
   displayName: 'pytest'
 
-- script: |
-    print('Hello world')
-  displayName: 'Hello'
+- script: python src/example.py

@@ -1,4 +1,3 @@
-pip install --upgrade google-api-python-client
 def update_view(override_values={}):
     # [START bigquery_update_view_query]
     from google.cloud import bigquery

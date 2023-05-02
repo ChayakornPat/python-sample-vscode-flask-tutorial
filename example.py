@@ -19,7 +19,7 @@ def update_view(override_values={}):
     # `gs://cloud-samples-data/bigquery/us-states/us-states.csv`. It contains
     # 50 US states, while the view returns only those states with names
     # starting with the letter 'M'.
-    view.view_query = f"SELECT "Data Platform" "
+    view.view_query = f"SELECT 123456 "
 
     # Make an API request to update the query property of the view.
     view = client.update_table(view, ["view_query"])

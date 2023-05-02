@@ -1,3 +1,4 @@
+from google.oauth2 import service_account
 def update_view(override_values={}):
     # [START bigquery_update_view_query]
     from google.cloud import bigquery

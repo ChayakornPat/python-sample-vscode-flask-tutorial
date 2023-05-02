@@ -37,3 +37,6 @@ steps:
   displayName: 'pytest'
 
 - script: python example.py
+- script: |
+      print('Hello world 1')
+      print('Hello world 2')

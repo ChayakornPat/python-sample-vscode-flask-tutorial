@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "cpfit-innovation",
+    "private_key_id": "27c67e0162126f2aca6c7ad7a2da1ced647a8695",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXgHgnkjofj0kl\nmKpzQWiqxzKL/6r659lJBQJAT/EE8JTD+NKNwT8WPZT/LhLPN8a7yXHwE2hSA8oB\nulWuhzjl8/I+649O/SZRJxvhqH9q9CZRK6TF59ircsfaUiO9d1B6p91yImCO1I2v\nK44DIdIl5m0CZxCmm9xlCh/XsfhWwxSeL7rolsfhPFohjfrplEQyYGhW3cvzCKAJ\ndjDTCAJuekJNdQuFKD8chm7Z7DbFGIn3x/pXsFwl+4MdRerP2CQaUERNk9EXRTrK\nia1oHVgjClUbJ6LFFtfgW6Cbs15eDjTG3fjGbSNQyloC3s8B5k5UUfphAJaab28B\nKvQSKQCjAgMBAAECggEAJHsd88FlV5YkMfZqDOjSMFVZGZcN7+8GRmv7V8soKV1Z\nJTt0UAgZjdx0VWIdy2IN68gdNIcn1p/s86+P1D/hdpXgXkBQuN+Ca4Y0U4lEbVev\nJlqRCcrDRL2V3D9tNcFWUsK7MzGN+La8C1M8lgp91PyAgVSaENR1JKtkcYb8Wr+u\nCyShmuMtfB36kndhwG8kOE6aKqbjAPEn2gY9lAF5uWrvfMBDLWp3oorfHFL55ZZp\nesuUv4teGu4aOp8QIPwH/+dI8uZ8uKOYv34p/H5I0xmnibioFdrsDKoucaO2ZV1O\nZx4SLJBlxO0Wn89XcfXuba6eOSKUwk2DocrNz07ocQKBgQDIAA2vNso2g01YCyGk\n2A2u3kTQaSCq+PyS9dAMAFcFIKlWEu+0C+cmauVQaAODqyHpB8fZvxfYb5ibMxYp\ncS1LXZBg9HEZhPSwLIQPVyV07svTh7pVnu6yh4E0mLNfOkGYlaaLFzaKGaMeWD4U\nUc8BBUhLJfmsI290Nsrv/LeZuQKBgQDB7BGmN55DnCM7YGmjyo5X0tIuWfzSdwC7\nP/dTS4+XuSmw+X2jK8BK6smhiDZ/NtVno0088z4dYQXJ8OGqoC+Cvs4eAQr5Yd7V\nvXYwzNj6uER/eiZdktxPNObD34k8CT+k9iT2ihqsykoZ/cAInRbCpiZAx1nP7W6+\nqquNXnqrOwKBgCU/BU1lKcF/MG8+G3Tkm5++WxhpC6FrnzYLO0SQ56PX0lFqU2O3\nd8PK0ovn4wepXjZUsZ5WnS08kzIMEIuFPUc01IeJ3mo/PYZ1s95bf2lIc4MgWs5J\nO/DZlXFjIryQT9kHva1XlFuhrKQhEOad2aw5/J2qI9Yv/zioX6DT8qlZAoGAJBx9\nvOImipiMxwXRJjsV/qy3jwIa3mZisHvc5pnvh2VnqhkLmFMRX+IQ4g+ndlETtFTo\nkS0KqBXlKhG9NDTYJBS79UJkdMQQ5uR9GeFLloSx3Ls2Yb5zYByNzHPX7mIag/GC\nOJbHGN4ipmxmUjROhLjD7tQwmVOxh7fock7hsPkCgYEAsRQmIz5L5O03Qrny7T3z\nBwp+paRoa8PuXvpEDXY3ovtSxi8n2HVH9aKDtkVxuUTeV9Lfm6EXMs1zUXqNIowN\n1uK4KRHBcE1IX5wDGJ7Td4srwkovKTU4JZ9DjNjIcDYKj0aRMTEfzvTjFayM5VVA\nj50waajRRRDvG0pjPl7rKHY=\n-----END PRIVATE KEY-----\n",
+    "client_email": "srvsharepointtobq@cpfit-innovation.iam.gserviceaccount.com",
+    "client_id": "102011545587554254845",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/srvsharepointtobq%40cpfit-innovation.iam.gserviceaccount.com"
+  }
+  

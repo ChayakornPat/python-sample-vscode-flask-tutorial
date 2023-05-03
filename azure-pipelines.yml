@@ -37,8 +37,8 @@ steps:
   displayName: 'pytest'
 
 #- script: python example.py
-- script: python from google.oauth2 import service_account
-
+- script: python 
+          import numpy
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'

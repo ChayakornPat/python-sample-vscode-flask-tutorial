@@ -1,1 +1,6 @@
 Flask
+from google.oauth2 import service_account
+from google.cloud import bigquery
+credentials = service_account.Credentials.from_service_account_file('cpfit-innovation.json')
+project_id = 'cpfit-innovation'
+client = bigquery.Client(credentials=credentials,project=project_id)

@@ -86,9 +86,5 @@ steps:
       client = bigquery.Client(credentials=credentials,project=project_id)
       def delete_view(override_values={}):
        view_id = "cpfit-innovation.TEST_Onedrive.Yacht2"
-       view_id = override_values.get("view_id", view_id)
-       view = bigquery.Table(view_id)
-       view = client.delete_table(view)
-       print(f"Created {view.table_type}: {str(view.reference)}")
-       return view
+       client.delete_table(view_id, not_found_ok=True)
       delete_view(override_values={})

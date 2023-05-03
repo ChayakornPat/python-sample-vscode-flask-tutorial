@@ -51,7 +51,9 @@ steps:
        view_id = "cpfit-innovation.TEST_Onedrive.Yacht"
        view_id = override_values.get("view_id", view_id)
        view = bigquery.Table(view_id)
-       view.view_query = f"SELECT UserID,ReportName FROM `cpfit-innovation.TEST_Onedrive.TestLimit` GROUP BY UserID,ReportName"
+       view.view_query = f"""SELECT UserID 
+                             FROM `cpfit-innovation.TEST_Onedrive.TestLimit` 
+                             GROUP BY UserID"""
        view = client.update_table(view, ["view_query"])
        print(f"Updated {view.table_type}: {str(view.reference)}")
        return view

@@ -56,6 +56,7 @@ steps:
        print(f"Updated {view.table_type}: {str(view.reference)}")
        return view
       update_view(override_values={})
+  displayName: 'update view'
 # - task: PythonScript@0
 #   inputs:
 #     scriptSource: 'inline'
@@ -87,5 +88,6 @@ steps:
       def delete_view(override_values={}):
        view_id = "cpfit-innovation.TEST_Onedrive.Yacht2"
        client.delete_table(view_id, not_found_ok=True)
-       print(f"Deleted {view_id.table_type}: {str(view_id.reference)}")
+       #print(f"Deleted {view_id.table_type}: {str(view_id.reference)}")
       delete_view(override_values={})
+  displayName: 'delete view'

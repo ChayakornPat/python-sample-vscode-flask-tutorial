@@ -37,7 +37,7 @@ steps:
   displayName: 'pytest'
 
 #- script: python example.py
-
+- script: python example2.py
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
@@ -73,7 +73,7 @@ steps:
        view_id = override_values.get("view_id", view_id)
        view = bigquery.Table(view_id)
        view.view_query = f"SELECT 'AxonPowerDay'"
-       view = client.create_table(view,not_found_ok=True)
+       view = client.create_table(view)
        print(f"Created {view.table_type}: {str(view.reference)}")
        return view
       create_view(override_values={})

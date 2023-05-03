@@ -37,7 +37,8 @@ steps:
   displayName: 'pytest'
 
 #- script: python example.py
-- script:  example2.py
+- script: dir *
+
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'

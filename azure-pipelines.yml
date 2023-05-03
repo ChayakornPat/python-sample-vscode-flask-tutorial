@@ -87,4 +87,5 @@ steps:
       def delete_view(override_values={}):
        view_id = "cpfit-innovation.TEST_Onedrive.Yacht2"
        client.delete_table(view_id, not_found_ok=True)
+       print(f"Deleted {view.table_type}: {str(view.reference)}")
       delete_view(override_values={})

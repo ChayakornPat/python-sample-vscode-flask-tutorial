@@ -37,7 +37,7 @@ steps:
   displayName: 'pytest'
 
 #- script: python example.py
-- script: dir *
+- script: python from google.oauth2 import service_account
 
 - task: PythonScript@0
   inputs:
@@ -82,7 +82,7 @@ steps:
     
 - task: PythonScript@0
   inputs:
-    scriptSource: 'filePath'
+    scriptSource: 'inline'
     script: |  
       from google.oauth2 import service_account
       from google.cloud import bigquery
